@@ -55,4 +55,8 @@ module.exports = graphql`
 
     likePost(postId: ID!): Post!
   }
+
+  type Subscription {
+    newPost: Post!
+  }
 `;
